@@ -10,3 +10,7 @@ COPY . .
 ##RUN npm run build
 EXPOSE 3002
 CMD [ "npm", "start" ]
+
+
+#docker build -t adapter .
+#docker run -it -p 3002:3002 adapter
